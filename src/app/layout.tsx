@@ -25,6 +25,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <header className="bg-white shadow py-6">
+        <h1 className="text-center text-3xl font-bold">Welcome to My Website</h1>
+       
+      </header>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased` }
       >
